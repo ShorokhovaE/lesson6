@@ -6,7 +6,7 @@ public class Task1 {
 
         if(arr.length == 0){
             System.out.println("Этот массив пустой!");
-            return arr;
+            throw new RuntimeException();
         }
 
             for (int i = (arr.length-1); i >= 0; i--) {
